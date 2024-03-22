@@ -1,6 +1,7 @@
 /models
-/cache
+/cache/*
 .test
 .venv
 venv
 .idea
+story_graph.dot
