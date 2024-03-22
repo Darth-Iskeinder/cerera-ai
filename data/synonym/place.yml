@@ -1,0 +1,351 @@
+version: "3.1"
+nlu:
+  - synonym: georgia
+    examples: |
+      - грузию
+      - грузия
+      - грузии
+      - грузией
+      - грузию
+  - synonym: spain
+    examples: |
+      - испанию
+      - испания
+      - испании
+      - испанией
+      - испании
+  - synonym: italy
+    examples: |
+      - италию
+      - италия
+      - италии
+      - италией
+      - италию
+  - synonym: thailand
+    examples: |
+      - таиланд
+      - таиланда
+      - таиланду
+      - таиландом
+      - таиланде
+  - synonym: france
+    examples: |
+      - францию
+      - франция
+      - франции
+      - францией
+      - францией
+  - synonym: japan
+    examples: |
+      - японию
+      - япония
+      - японии
+      - японией
+      - японией
+  - synonym: turkey
+    examples: |
+      - турцию
+      - турция
+      - турции
+      - турцией
+      - турцией
+  - synonym: germany
+    examples: |
+      - германию
+      - германия
+      - германии
+      - германией
+      - германией
+  - synonym: australia
+    examples: |
+      - австралию
+      - австралия
+      - австралии
+      - австралией
+      - австралией
+  - synonym: greece
+    examples: |
+      - грецию
+      - греция
+      - греции
+      - грецией
+      - грецией
+  - synonym: mexico
+    examples: |
+      - мексику
+      - мексика
+      - мексики
+      - мексикой
+      - мексикой
+  - synonym: canada
+    examples: |
+      - канаду
+      - канада
+      - канады
+      - канадой
+      - канадой
+  - synonym: brazil
+    examples: |
+      - бразилию
+      - бразилия
+      - бразилии
+      - бразилией
+      - бразилией
+  - synonym: egypt
+    examples: |
+      - египет
+      - египта
+      - египту
+      - египтом
+      - египте
+  - synonym: india
+    examples: |
+      - индию
+      - индия
+      - индии
+      - индией
+      - индией
+  - synonym: russia
+    examples: |
+      - россию
+      - россия
+      - россии
+      - россией
+      - россией
+  - synonym: argentina
+    examples: |
+      - аргентину
+      - аргентина
+      - аргентины
+      - аргентиной
+      - аргентиной
+  - synonym: portugal
+    examples: |
+      - португалию
+      - португалия
+      - португалии
+      - португалией
+      - португалией
+  - synonym: south_africa
+    examples: |
+      - южную африку
+      - южная африка
+      - южной африке
+      - южной африкой
+      - южной африке
+  - synonym: switzerland
+    examples: |
+      - швейцарию
+      - швейцария
+      - швейцарии
+      - швейцарией
+      - швейцарией
+  - synonym: dubai
+    examples: |
+      - дубай
+      - дубая
+      - dubai
+      - дубаи
+      - дубае
+      - дубаю
+  - synonym: paris
+    examples: |
+      - париж
+      - париже
+      - paris
+      - парижа
+      - парижу
+      - парижем
+  - synonym: london
+    examples: |
+      - лондон
+      - лондона
+      - london
+      - лондоне
+      - лондону
+      - лондоном
+  - synonym: new_york
+    examples: |
+      - нью-йорк
+      - нью-йорка
+      - new york
+      - нью-йорке
+      - нью-йорку
+      - нью-йорком
+  - synonym: tokyo
+    examples: |
+      - токио
+      - токио
+      - tokyo
+      - токио
+      - токио
+      - токио
+  - synonym: rome
+    examples: |
+      - рим
+      - риме
+      - rome
+      - рима
+      - риму
+      - римом
+  - synonym: istanbul
+    examples: |
+      - истанбул
+      - истанбула
+      - istanbul
+      - истанбуле
+      - истанбулом
+      - истанбулу
+  - synonym: bangkok
+    examples: |
+      - бангкок
+      - бангкока
+      - bangkok
+      - бангкоке
+      - бангкоком
+      - бангкоку
+  - synonym: barcelona
+    examples: |
+      - барселона
+      - барселоны
+      - barcelona
+      - барселоне
+      - барселоной
+      - барселону
+  - synonym: singapore
+    examples: |
+      - сингапур
+      - сингапура
+      - singapore
+      - сингапуре
+      - сингапуром
+      - сингапуру
+  - synonym: beijing
+    examples: |
+      - пекин
+      - пекина
+      - пекину
+      - пекином
+      - пекине
+  - synonym: amsterdam
+    examples: |
+      - амстердам
+      - амстердама
+      - амстердаму
+      - амстердамом
+      - амстердаме
+  - synonym: venice
+    examples: |
+      - венеция
+      - венеции
+      - венеции
+      - венецию
+      - венецией
+  - synonym: sydney
+    examples: |
+      - сидней
+      - сиднея
+      - сиднею
+      - сиднеем
+      - сиднее
+  - synonym: hong_kong
+    examples: |
+      - гонконг
+      - гонконга
+      - гонконгу
+      - гонконгом
+      - гонконге
+  - synonym: berlin
+    examples: |
+      - берлин
+      - берлина
+      - берлину
+      - берлином
+      - берлине
+  - synonym: vienna
+    examples: |
+      - вена
+      - вены
+      - вене
+      - вену
+      - веной
+  - synonym: prague
+    examples: |
+      - прага
+      - праги
+      - праге
+      - прагу
+      - прагой
+  - synonym: budapest
+    examples: |
+      - будапешт
+      - будапешта
+      - будапешту
+      - будапештом
+      - будапеште
+  - synonym: dublin
+    examples: |
+      - дублин
+      - дублина
+      - дублину
+      - дублином
+      - дублине
+  - synonym: florence
+    examples: |
+      - флоренция
+      - флоренции
+      - флоренции
+      - флоренцию
+      - флоренцией
+  - synonym: athens
+    examples: |
+      - афины
+      - афин
+      - афинам
+      - афинами
+      - афинах
+  - synonym: cairo
+    examples: |
+      - каир
+      - каира
+      - каиру
+      - каиром
+      - каире
+  - synonym: dubrovnik
+    examples: |
+      - дубровник
+      - дубровника
+      - дубровнику
+      - дубровником
+      - дубровнике
+  - synonym: edinburgh
+    examples: |
+      - эдинбург
+      - эдинбурга
+      - эдинбургу
+      - эдинбургом
+      - эдинбурге
+  - synonym: kyoto
+    examples: |
+      - киото
+  - synonym: lisbon
+    examples: |
+      - лиссабон
+      - лиссабона
+      - лиссабону
+      - лиссабоном
+      - лиссабоне
+  - synonym: madrid
+    examples: |
+      - мадрид
+      - мадрида
+      - мадриду
+      - мадридом
+      - мадриде
+  - synonym: milan
+    examples: |
+      - милан
+      - милана
+      - милану
+      - миланом
+      - милане

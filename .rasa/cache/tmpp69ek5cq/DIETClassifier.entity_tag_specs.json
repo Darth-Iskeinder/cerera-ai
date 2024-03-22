@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-city",
+      "2": "I-city",
+      "3": "L-city",
+      "4": "U-city",
+      "5": "B-country",
+      "6": "I-country",
+      "7": "L-country",
+      "8": "U-country",
+      "9": "B-product",
+      "10": "I-product",
+      "11": "L-product",
+      "12": "U-product",
+      "13": "B-tag",
+      "14": "I-tag",
+      "15": "L-tag",
+      "16": "U-tag",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-city": 1,
+      "I-city": 2,
+      "L-city": 3,
+      "U-city": 4,
+      "B-country": 5,
+      "I-country": 6,
+      "L-country": 7,
+      "U-country": 8,
+      "B-product": 9,
+      "I-product": 10,
+      "L-product": 11,
+      "U-product": 12,
+      "B-tag": 13,
+      "I-tag": 14,
+      "L-tag": 15,
+      "U-tag": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

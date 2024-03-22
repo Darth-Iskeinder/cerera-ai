@@ -1,0 +1,6 @@
+nlu:
+- synonym: tour
+  examples: |
+    - тур
+    - туры
+    - тура

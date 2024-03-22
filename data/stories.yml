@@ -33,3 +33,8 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: sad path 33
+  steps:
+  - intent: availability
+  - action: utter_availability
