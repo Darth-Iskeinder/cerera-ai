@@ -32,3 +32,12 @@ session_config:
   carry_over_slots_to_new_session: true
 actions:
 - utter_greet
+
+entities:
+  - time
+  - number
+  - amount-of-money
+  - distance
+  - destination
+  - product
+  - tag

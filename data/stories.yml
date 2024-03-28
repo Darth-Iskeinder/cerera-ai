@@ -37,4 +37,6 @@ stories:
 - story: sad path 33
   steps:
   - intent: availability
+    entities:
+      - place: "грузия"
   - action: utter_availability
