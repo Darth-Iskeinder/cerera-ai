@@ -1,0 +1,47 @@
+version: "3.1"
+nlu:
+  - intent: info
+    examples: |
+      - [тур]{"entity":"product"}
+      - [туры]{"entity":"product"}
+      - [турами]{"entity":"product"}
+      - [авиабилет]{"entity":"product"}
+      - [авиабилеты]{"entity":"product"}
+      - [билет]{"entity":"product"}
+      - [билеты]{"entity":"product"}
+      - [самолет]{"entity":"product"}
+      - [самолёт]{"entity":"product"}
+      - [самолеты]{"entity":"product"}
+      - [самолёты]{"entity":"product"}
+      - [рейсы]{"entity":"product"}
+      - [рейс]{"entity":"product"}
+  - intent: availability
+    examples: |
+      - напиши дешевые [тур]{"entity":"product"} на Сейшелские острова
+      - есть у вас [туры]{"entity":"product"} в Европу
+      - есть у вас [турами]{"entity":"product"} в Европу
+      - есть у вас [авиабилет]{"entity":"product"} в Европу
+      - есть у вас [авиабилеты]{"entity":"product"} в Европу
+      - какие самые дорогие [билет]{"entity":"product"} в Турцию какие
+      - есть у вас [билеты]{"entity":"product"} в Европу
+      - есть у вас [самолет]{"entity":"product"} в Европу
+      - напиши дешевые [самолёт]{"entity":"product"} на Сейшелские острова
+      - у вас есть [самолеты]{"entity":"product"}
+      - у вас есть [самолёты]{"entity":"product"}
+      - напиши дешевые [рейсы]{"entity":"product"} на Сейшелские острова
+      - какие самые дорогие [рейс]{"entity":"product"} в Турцию какие
+  - intent: price
+    examples: |
+      - цена [тур]{"entity":"product"} в турцию
+      - стоимость [туры]{"entity":"product"} из Бишкека в Гаваи
+      - цена [турами]{"entity":"product"} в турцию
+      - стоимость [авиабилет]{"entity":"product"} из Бишкека в Гаваи
+      - сколько стоит [авиабилеты]{"entity":"product"}
+      - сколько стоит [билет]{"entity":"product"}
+      - стоимость [билеты]{"entity":"product"} из Бишкека в Гаваи
+      - цена [самолет]{"entity":"product"} в турцию
+      - за сколько могу купить [самолёт]{"entity":"product"}
+      - за сколько могу купить [самолеты]{"entity":"product"}
+      - стоимость [самолёты]{"entity":"product"} из Бишкека в Гаваи
+      - сколько стоит [рейсы]{"entity":"product"}
+      - за сколько могу купить [рейс]{"entity":"product"}

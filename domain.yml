@@ -1,43 +1,81 @@
 version: '3.1'
 intents:
 - affirm
+- availability
 - bot_challenge
 - deny
 - goodbye
 - greet
+- info
 - mood_great
 - mood_unhappy
 - price
-- availability
 responses:
   utter_greet:
-  - text: Магазин спорт товаров 'Ахилес' приветствует вас! Чем могу помочь?
-  utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_goodbye:
-  - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Cerera.
+  - text: Добро пожаловать в наше туристическое агентство! 🌍 Как я могу помочь вам с выбором и организацией вашего следующего путешествия? Если у вас есть вопросы о турах, отелях, билетах или других услугах, не стесняйтесь спрашивать. Моя задача - сделать ваш отдых незабываемым!
   utter_price:
-  - text: Отдаю довольно не дорого! 1000 сом за пару
-  utter_availability:
-  - text: availability
+  - text: У нас вы можете приобрести туры и авиабилеты. Также мы помогаем получить визы. Цена какой услуги вас интересует?
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 actions:
+- action_for_price_availability
 - utter_greet
-
 entities:
-  - time
-  - number
-  - amount-of-money
-  - distance
-  - destination
-  - product
-  - tag
+- product
+- destination
+- origin
+- time
+- number
+- amount-of-money
+- tag
+slots:
+  destination:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: destination
+  tag:
+    type: list
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: tag
+      value_type: list
+  origin:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: origin
+  product:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: product
+  time:
+    type: list
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: time
+      value_type: list
+  number:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: number
+  amount-of-money:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: amount-of-money
+  user_messages:
+    type: list
+    influence_conversation: false
+    mappings:
+      - type: custom

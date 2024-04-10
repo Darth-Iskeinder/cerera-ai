@@ -1,42 +1,22 @@
 version: "3.1"
 
 stories:
-
-- story: happy path
+- story: greet
   steps:
   - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - action: action_for_price_availability
 
-- story: tell product price
-  steps:
-  - intent: price
-  - action: utter_price
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
-- story: sad path 33
+- story: availability
   steps:
   - intent: availability
-    entities:
-      - place: "грузия"
-  - action: utter_availability
+  - action: action_for_price_availability
+
+- story: price
+  steps:
+  - intent: price
+  - action: action_for_price_availability
+
+- story: info
+steps:
+  - intent: info
+  - action: action_for_price_availability
