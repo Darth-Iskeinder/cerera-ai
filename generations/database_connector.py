@@ -39,13 +39,3 @@ class Product(Base):
 
 def get_all_products():
     return session.query(Product).all()
-
-class Tag(Base):
-    __tablename__ = 'tags'
-
-    id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
-    value = sqlalchemy.Column(sqlalchemy.String, nullable=False)
-    key = sqlalchemy.Column(sqlalchemy.String, nullable=False)
-
-def get_all_tags():
-    return session.query(Tag).all()

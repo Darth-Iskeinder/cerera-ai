@@ -116,226 +116,226 @@ nlu:
   - intent: availability
     examples: |
       - есть туры В [Грузию]{"entity":"destination"}
-      - в [Таиланд]{"entity":"destination"} тоже отправляете?
-      - какие горящие туры у вас есть во [Францию]{"entity":"destination"}
-      - какие самые дешевые туры в [Японию]{"entity":"destination"}
-      - какие самые дешевые туры из Бишкека в [Турцию]{"entity":"destination"}
-      - в [Германию]{"entity":"destination"} тоже отправляете?
-      - какие самые дешевые туры из Оша в [Австралию]{"entity":"destination"}
-      - самые дорогие туры в [Грецию]{"entity":"destination"} какие
-      - есть  у вас туры в [Мексику]{"entity":"destination"}
-      - есть туры в [Канаду]{"entity":"destination"}
-      - самые дорогие туры в [Бразилию]{"entity":"destination"} какие
-      - есть туры в [Египет]{"entity":"destination"}
-      - самые дорогие туры в [Индию]{"entity":"destination"} какие
-      - какие горящие туры у вас есть в [Россию]{"entity":"destination"}
+      - есть туры в [Таиланд]{"entity":"destination"}
+      - какие самые дешевые туры во [Францию]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Японию]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Турцию]{"entity":"destination"}
+      - самые дорогие туры в [Германию]{"entity":"destination"} какие
+      - какие самые дешевые туры в [Австралию]{"entity":"destination"}
+      - какие самые дешевые туры в [Грецию]{"entity":"destination"}
+      - в [Мексику]{"entity":"destination"} тоже отправляете?
+      - в [Канаду]{"entity":"destination"} тоже отправляете?
+      - есть  у вас туры в [Бразилию]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Египет]{"entity":"destination"}
+      - в [Индию]{"entity":"destination"} тоже отправляете?
+      - какие самые дешевые туры из Оша в [Россию]{"entity":"destination"}
       - в [Аргентину]{"entity":"destination"} тоже отправляете?
-      - самые дорогие туры в [Португалию]{"entity":"destination"} какие
-      - какие самые дешевые туры в [Южную]{"entity":"destination"}
-      - есть туры в [Швейцарию]{"entity":"destination"}
-      - какие самые дешевые туры в [Дубай]{"entity":"destination"}
-      - в [Париж]{"entity":"destination"} тоже отправляете?
-      - какие самые дешевые туры из Оша в [Лондон]{"entity":"destination"}
-      - есть туры в [Нью-Йорк]{"entity":"destination"}
-      - в [Токио]{"entity":"destination"} тоже отправляете?
+      - в [Португалию]{"entity":"destination"} тоже отправляете?
+      - самые дорогие туры в [Южную]{"entity":"destination"} какие
+      - какие горящие туры у вас есть в [Швейцарию]{"entity":"destination"}
+      - самые дорогие туры в [Дубай]{"entity":"destination"} какие
+      - самые дорогие туры в [Париж]{"entity":"destination"} какие
+      - есть  у вас туры в [Лондон]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека в [Нью-Йорк]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Токио]{"entity":"destination"}
       - самые дорогие туры в [Рим]{"entity":"destination"} какие
       - какие горящие туры у вас есть в [Стамбул]{"entity":"destination"}
-      - какие самые дешевые туры в [Бангкок]{"entity":"destination"}
-      - самые дорогие туры в [Барселону]{"entity":"destination"} какие
+      - в [Бангкок]{"entity":"destination"} тоже отправляете?
+      - какие горящие туры у вас есть в [Барселону]{"entity":"destination"}
       - какие самые дешевые туры из Бишкека в [Сингапур]{"entity":"destination"}
-      - есть туры в [Пекин]{"entity":"destination"}
-      - какие самые дешевые туры в [Амстердам]{"entity":"destination"}
-      - какие самые дешевые туры из Оша в [Венецию]{"entity":"destination"}
-      - есть  у вас туры в [Сидней]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека в [Пекин]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Амстердам]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Венецию]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Сидней]{"entity":"destination"}
       - какие самые дешевые туры в [Гонконг]{"entity":"destination"}
-      - есть  у вас туры в [Берлин]{"entity":"destination"}
-      - какие самые дешевые туры из Оша в [Вену]{"entity":"destination"}
-      - есть  у вас туры в [Прагу]{"entity":"destination"}
-      - какие самые дешевые туры в [Будапешт]{"entity":"destination"}
-      - самые дорогие туры в [Дублин]{"entity":"destination"} какие
-      - какие самые дешевые туры из Оша в [Флоренцию]{"entity":"destination"}
-      - есть туры в [Афины]{"entity":"destination"}
-      - есть  у вас туры в [Каир]{"entity":"destination"}
-      - самые дорогие туры в [Дубровник]{"entity":"destination"} какие
+      - какие самые дешевые туры в [Берлин]{"entity":"destination"}
+      - есть туры в [Вену]{"entity":"destination"}
+      - самые дорогие туры в [Прагу]{"entity":"destination"} какие
+      - какие самые дешевые туры из Оша в [Будапешт]{"entity":"destination"}
+      - какие самые дешевые туры в [Дублин]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Флоренцию]{"entity":"destination"}
+      - какие самые дешевые туры в [Афины]{"entity":"destination"}
+      - в [Каир]{"entity":"destination"} тоже отправляете?
+      - в [Дубровник]{"entity":"destination"} тоже отправляете?
       - самые дорогие туры в [Эдинбург]{"entity":"destination"} какие
-      - какие горящие туры у вас есть в [Киото]{"entity":"destination"}
-      - какие самые дешевые туры из Оша в [Лиссабон]{"entity":"destination"}
-      - в [Мадрид]{"entity":"destination"} тоже отправляете?
-      - какие горящие туры у вас есть в [Милан]{"entity":"destination"}
-      - есть туры на [Сейшелы]{"entity":"destination"}
-      - есть  у вас туры на [Сейшельские]{"entity":"destination"}
-      - какие горящие туры у вас есть на [Бали]{"entity":"destination"}
-      - какие самые дешевые туры из Бишкека на [Мальдивы]{"entity":"destination"}
+      - самые дорогие туры в [Киото]{"entity":"destination"} какие
+      - есть  у вас туры в [Лиссабон]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Мадрид]{"entity":"destination"}
+      - есть туры в [Милан]{"entity":"destination"}
+      - самые дорогие туры на [Сейшелы]{"entity":"destination"} какие
+      - есть туры на [Сейшельские]{"entity":"destination"}
+      - есть  у вас туры на [Бали]{"entity":"destination"}
+      - есть  у вас туры на [Мальдивы]{"entity":"destination"}
       - какие самые дешевые туры из Бишкека на [Шри-Ланку]{"entity":"destination"}
-      - какие самые дешевые туры из Оша в [Хорватию]{"entity":"destination"}
-      - самые дорогие туры в [Австрию]{"entity":"destination"} какие
-      - есть  у вас туры в [Новую]{"entity":"destination"}
-      - какие самые дешевые туры из Бишкека на [Маврикий]{"entity":"destination"}
-      - какие самые дешевые туры из Бишкека в [Швецию]{"entity":"destination"}
-      - какие самые дешевые туры в [Норвегию]{"entity":"destination"}
-      - самые дорогие туры в [Данию]{"entity":"destination"} какие
-      - какие самые дешевые туры из Бишкека в [Финляндию]{"entity":"destination"}
-      - есть  у вас туры в [Тунис]{"entity":"destination"}
-      - есть  у вас туры на [Кубу]{"entity":"destination"}
-      - какие самые дешевые туры из Оша на [Исландию]{"entity":"destination"}
-      - есть  у вас туры на [Мальту]{"entity":"destination"}
-      - есть туры в [Чехию]{"entity":"destination"}
-      - какие горящие туры у вас есть в [Южную]{"entity":"destination"}
-      - есть  у вас туры на [Южную]{"entity":"destination"}
-      - какие горящие туры у вас есть в [Северную]{"entity":"destination"}
-      - какие горящие туры у вас есть на [Северную]{"entity":"destination"}
-      - самые дорогие туры в [США]{"entity":"destination"} какие
-      - есть туры в [Китай]{"entity":"destination"}
-      - какие самые дешевые туры в [Великобританию]{"entity":"destination"}
-      - самые дорогие туры в [Голландию]{"entity":"destination"} какие
+      - есть  у вас туры в [Хорватию]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Австрию]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Новую]{"entity":"destination"}
+      - самые дорогие туры на [Маврикий]{"entity":"destination"} какие
+      - какие самые дешевые туры в [Швецию]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека в [Норвегию]{"entity":"destination"}
+      - в [Данию]{"entity":"destination"} тоже отправляете?
+      - есть  у вас туры в [Финляндию]{"entity":"destination"}
+      - какие самые дешевые туры в [Тунис]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека на [Кубу]{"entity":"destination"}
+      - самые дорогие туры на [Исландию]{"entity":"destination"} какие
+      - есть туры на [Мальту]{"entity":"destination"}
+      - в [Чехию]{"entity":"destination"} тоже отправляете?
+      - какие самые дешевые туры из Бишкека в [Южную]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека на [Южную]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Северную]{"entity":"destination"}
+      - какие самые дешевые туры на [Северную]{"entity":"destination"}
+      - есть  у вас туры в [США]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Китай]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека в [Великобританию]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Голландию]{"entity":"destination"}
       - есть туры в [Ирландию]{"entity":"destination"}
-      - есть  у вас туры в [Испанию]{"entity":"destination"}
-      - в [Монако]{"entity":"destination"} тоже отправляете?
-      - какие самые дешевые туры из Оша в [Люксембург]{"entity":"destination"}
-      - самые дорогие туры в [Бельгию]{"entity":"destination"} какие
-      - какие самые дешевые туры из Бишкека в [Латвию]{"entity":"destination"}
+      - какие самые дешевые туры в [Испанию]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека в [Монако]{"entity":"destination"}
+      - есть  у вас туры в [Люксембург]{"entity":"destination"}
+      - в [Бельгию]{"entity":"destination"} тоже отправляете?
+      - какие горящие туры у вас есть в [Латвию]{"entity":"destination"}
       - есть туры в [Литву]{"entity":"destination"}
       - есть  у вас туры в [Эстонию]{"entity":"destination"}
-      - какие самые дешевые туры из Бишкека в [Молдавию]{"entity":"destination"}
-      - самые дорогие туры в [Украину]{"entity":"destination"} какие
-      - какие самые дешевые туры из Оша в [Беларусь]{"entity":"destination"}
-      - какие самые дешевые туры из Оша в [Армению]{"entity":"destination"}
-      - какие самые дешевые туры из Оша в [Азербайджан]{"entity":"destination"}
+      - какие самые дешевые туры в [Молдавию]{"entity":"destination"}
+      - есть туры в [Украину]{"entity":"destination"}
+      - в [Беларусь]{"entity":"destination"} тоже отправляете?
+      - какие горящие туры у вас есть в [Армению]{"entity":"destination"}
+      - в [Азербайджан]{"entity":"destination"} тоже отправляете?
       - какие горящие туры у вас есть в [Казахстан]{"entity":"destination"}
-      - какие самые дешевые туры в [Узбекистан]{"entity":"destination"}
-      - есть туры в [Таджикистан]{"entity":"destination"}
-      - в [Кыргызстан]{"entity":"destination"} тоже отправляете?
-      - какие горящие туры у вас есть в [Туркменистан]{"entity":"destination"}
-      - есть  у вас туры в [Афганистан]{"entity":"destination"}
-      - какие горящие туры у вас есть в [Иран]{"entity":"destination"}
-      - в [Ирак]{"entity":"destination"} тоже отправляете?
+      - есть  у вас туры в [Узбекистан]{"entity":"destination"}
+      - какие самые дешевые туры в [Таджикистан]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека в [Кыргызстан]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Туркменистан]{"entity":"destination"}
+      - в [Афганистан]{"entity":"destination"} тоже отправляете?
+      - есть туры в [Иран]{"entity":"destination"}
+      - есть туры в [Ирак]{"entity":"destination"}
       - есть туры в [Сирию]{"entity":"destination"}
       - какие самые дешевые туры в [Израиль]{"entity":"destination"}
-      - в [Иорданию]{"entity":"destination"} тоже отправляете?
-      - самые дорогие туры в [Ливан]{"entity":"destination"} какие
-      - есть  у вас туры в [Катар]{"entity":"destination"}
-      - какие горящие туры у вас есть в [Объединенные]{"entity":"destination"}
-      - есть туры в [Саудовскую]{"entity":"destination"}
-      - есть туры в [Йемен]{"entity":"destination"}
-      - есть туры в [Оман]{"entity":"destination"}
-      - какие самые дешевые туры из Бишкека в [Кувейт]{"entity":"destination"}
-      - в [Бахрейн]{"entity":"destination"} тоже отправляете?
-      - какие самые дешевые туры из Оша в [Европу]{"entity":"destination"}
-      - какие самые дешевые туры в [Африку]{"entity":"destination"}
-      - какие самые дешевые туры из Оша в [Северную]{"entity":"destination"}
-      - какие самые дешевые туры в [Южную]{"entity":"destination"}
-      - какие горящие туры у вас есть в [Австралию]{"entity":"destination"}
-      - какие самые дешевые туры В [Азию]{"entity":"destination"}
+      - какие самые дешевые туры из Оша в [Иорданию]{"entity":"destination"}
+      - в [Ливан]{"entity":"destination"} тоже отправляете?
+      - есть туры в [Катар]{"entity":"destination"}
+      - есть туры в [Объединенные]{"entity":"destination"}
+      - есть  у вас туры в [Саудовскую]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Йемен]{"entity":"destination"}
+      - какие горящие туры у вас есть в [Оман]{"entity":"destination"}
+      - самые дорогие туры в [Кувейт]{"entity":"destination"} какие
+      - какие горящие туры у вас есть в [Бахрейн]{"entity":"destination"}
+      - есть туры в [Европу]{"entity":"destination"}
+      - есть туры в [Африку]{"entity":"destination"}
+      - какие самые дешевые туры из Бишкека в [Северную]{"entity":"destination"}
+      - есть  у вас туры в [Южную]{"entity":"destination"}
+      - какие самые дешевые туры в [Австралию]{"entity":"destination"}
+      - какие горящие туры у вас есть В [Азию]{"entity":"destination"}
   - intent: price
     examples: |
       - во сколько обойдется туры В [Грузию]{"entity":"destination"}
-      - ценники на отдых в [Таиланд]{"entity":"destination"}
-      - цена во [Францию]{"entity":"destination"}
-      - цена в [Японию]{"entity":"destination"}
-      - сколько стоит тур в [Турцию]{"entity":"destination"}
-      - сколько стоит тур в [Германию]{"entity":"destination"}
-      - цена тура в [Австралию]{"entity":"destination"}?
+      - цена в [Таиланд]{"entity":"destination"}
+      - во сколько обойдется туры во [Францию]{"entity":"destination"}
+      - можете сказать стоимость туров в [Японию]{"entity":"destination"}
+      - можете сказать стоимость туров в [Турцию]{"entity":"destination"}
+      - можете сказать стоимость туров в [Германию]{"entity":"destination"}
+      - можете сказать стоимость туров в [Австралию]{"entity":"destination"}
       - во сколько обойдется туры в [Грецию]{"entity":"destination"}
-      - во сколько обойдется туры в [Мексику]{"entity":"destination"}
-      - цена тура в [Канаду]{"entity":"destination"}?
-      - за сколько можно купить туры с питанием в [Бразилию]{"entity":"destination"}
-      - цена тура в [Египет]{"entity":"destination"}?
+      - сколько стоит тур в [Мексику]{"entity":"destination"}
+      - во сколько обойдется туры в [Канаду]{"entity":"destination"}
+      - ценники на отдых в [Бразилию]{"entity":"destination"}
+      - цена в [Египет]{"entity":"destination"}
       - цена в [Индию]{"entity":"destination"}
-      - можете сказать стоимость туров в [Россию]{"entity":"destination"}
-      - в [Аргентину]{"entity":"destination"} цена
-      - сколько стоит тур в [Португалию]{"entity":"destination"}
-      - можете сказать стоимость туров в [Южную]{"entity":"destination"}
-      - сколько стоит тур в [Швейцарию]{"entity":"destination"}
-      - ценники на отдых в [Дубай]{"entity":"destination"}
-      - в [Париж]{"entity":"destination"} цена
+      - в [Россию]{"entity":"destination"} цена
+      - за сколько можно купить туры с питанием в [Аргентину]{"entity":"destination"}
+      - ценники на отдых в [Португалию]{"entity":"destination"}
+      - цена в [Южную]{"entity":"destination"}
+      - можете сказать стоимость туров в [Швейцарию]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Дубай]{"entity":"destination"}
+      - во сколько обойдется туры в [Париж]{"entity":"destination"}
       - в [Лондон]{"entity":"destination"} цена
       - цена тура в [Нью-Йорк]{"entity":"destination"}?
-      - за сколько можно купить туры с питанием в [Токио]{"entity":"destination"}
-      - цена в [Рим]{"entity":"destination"}
+      - в [Токио]{"entity":"destination"} цена
+      - сколько стоит тур в [Рим]{"entity":"destination"}
       - цена в [Стамбул]{"entity":"destination"}
-      - сколько стоит тур в [Бангкок]{"entity":"destination"}
-      - в [Барселону]{"entity":"destination"} цена
-      - цена тура в [Сингапур]{"entity":"destination"}?
-      - во сколько обойдется туры в [Пекин]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Бангкок]{"entity":"destination"}
+      - можете сказать стоимость туров в [Барселону]{"entity":"destination"}
+      - ценники на отдых в [Сингапур]{"entity":"destination"}
+      - цена в [Пекин]{"entity":"destination"}
       - в [Амстердам]{"entity":"destination"} цена
-      - в [Венецию]{"entity":"destination"} цена
-      - во сколько обойдется туры в [Сидней]{"entity":"destination"}
-      - сколько стоит тур в [Гонконг]{"entity":"destination"}
-      - ценники на отдых в [Берлин]{"entity":"destination"}
+      - цена в [Венецию]{"entity":"destination"}
+      - сколько стоит тур в [Сидней]{"entity":"destination"}
+      - ценники на отдых в [Гонконг]{"entity":"destination"}
+      - сколько стоит тур в [Берлин]{"entity":"destination"}
       - во сколько обойдется туры в [Вену]{"entity":"destination"}
-      - в [Прагу]{"entity":"destination"} цена
-      - в [Будапешт]{"entity":"destination"} цена
+      - сколько стоит тур в [Прагу]{"entity":"destination"}
+      - ценники на отдых в [Будапешт]{"entity":"destination"}
       - цена тура в [Дублин]{"entity":"destination"}?
-      - цена в [Флоренцию]{"entity":"destination"}
-      - сколько стоит тур в [Афины]{"entity":"destination"}
-      - в [Каир]{"entity":"destination"} цена
-      - ценники на отдых в [Дубровник]{"entity":"destination"}
-      - в [Эдинбург]{"entity":"destination"} цена
-      - в [Киото]{"entity":"destination"} цена
-      - во сколько обойдется туры в [Лиссабон]{"entity":"destination"}
-      - во сколько обойдется туры в [Мадрид]{"entity":"destination"}
+      - ценники на отдых в [Флоренцию]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Афины]{"entity":"destination"}
+      - цена тура в [Каир]{"entity":"destination"}?
+      - за сколько можно купить туры с питанием в [Дубровник]{"entity":"destination"}
+      - цена в [Эдинбург]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Киото]{"entity":"destination"}
+      - ценники на отдых в [Лиссабон]{"entity":"destination"}
+      - сколько стоит тур в [Мадрид]{"entity":"destination"}
       - во сколько обойдется туры в [Милан]{"entity":"destination"}
       - сколько стоит тур на [Сейшелы]{"entity":"destination"}
-      - на [Сейшельские]{"entity":"destination"} цена
+      - можете сказать стоимость туров на [Сейшельские]{"entity":"destination"}
       - можете сказать стоимость туров на [Бали]{"entity":"destination"}
-      - цена на [Мальдивы]{"entity":"destination"}
-      - на [Шри-Ланку]{"entity":"destination"} цена
-      - ценники на отдых в [Хорватию]{"entity":"destination"}
-      - цена в [Австрию]{"entity":"destination"}
-      - цена тура в [Новую]{"entity":"destination"}?
-      - можете сказать стоимость туров на [Маврикий]{"entity":"destination"}
+      - ценники на отдых на [Мальдивы]{"entity":"destination"}
+      - во сколько обойдется туры на [Шри-Ланку]{"entity":"destination"}
+      - можете сказать стоимость туров в [Хорватию]{"entity":"destination"}
+      - можете сказать стоимость туров в [Австрию]{"entity":"destination"}
+      - можете сказать стоимость туров в [Новую]{"entity":"destination"}
+      - цена тура на [Маврикий]{"entity":"destination"}?
       - цена тура в [Швецию]{"entity":"destination"}?
-      - в [Норвегию]{"entity":"destination"} цена
-      - можете сказать стоимость туров в [Данию]{"entity":"destination"}
-      - в [Финляндию]{"entity":"destination"} цена
-      - цена тура в [Тунис]{"entity":"destination"}?
+      - цена в [Норвегию]{"entity":"destination"}
+      - в [Данию]{"entity":"destination"} цена
+      - цена тура в [Финляндию]{"entity":"destination"}?
+      - цена в [Тунис]{"entity":"destination"}
       - цена тура на [Кубу]{"entity":"destination"}?
-      - цена тура на [Исландию]{"entity":"destination"}?
-      - цена на [Мальту]{"entity":"destination"}
+      - за сколько можно купить туры с питанием на [Исландию]{"entity":"destination"}
+      - цена тура на [Мальту]{"entity":"destination"}?
       - цена тура в [Чехию]{"entity":"destination"}?
-      - можете сказать стоимость туров в [Южную]{"entity":"destination"}
-      - цена тура на [Южную]{"entity":"destination"}?
-      - сколько стоит тур в [Северную]{"entity":"destination"}
+      - ценники на отдых в [Южную]{"entity":"destination"}
+      - цена на [Южную]{"entity":"destination"}
+      - в [Северную]{"entity":"destination"} цена
       - на [Северную]{"entity":"destination"} цена
-      - за сколько можно купить туры с питанием в [США]{"entity":"destination"}
-      - в [Китай]{"entity":"destination"} цена
-      - за сколько можно купить туры с питанием в [Великобританию]{"entity":"destination"}
-      - сколько стоит тур в [Голландию]{"entity":"destination"}
-      - в [Ирландию]{"entity":"destination"} цена
-      - сколько стоит тур в [Испанию]{"entity":"destination"}
-      - во сколько обойдется туры в [Монако]{"entity":"destination"}
+      - ценники на отдых в [США]{"entity":"destination"}
+      - сколько стоит тур в [Китай]{"entity":"destination"}
+      - ценники на отдых в [Великобританию]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Голландию]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Ирландию]{"entity":"destination"}
+      - цена в [Испанию]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Монако]{"entity":"destination"}
       - сколько стоит тур в [Люксембург]{"entity":"destination"}
-      - в [Бельгию]{"entity":"destination"} цена
-      - можете сказать стоимость туров в [Латвию]{"entity":"destination"}
-      - во сколько обойдется туры в [Литву]{"entity":"destination"}
-      - в [Эстонию]{"entity":"destination"} цена
+      - сколько стоит тур в [Бельгию]{"entity":"destination"}
+      - цена в [Латвию]{"entity":"destination"}
+      - в [Литву]{"entity":"destination"} цена
+      - ценники на отдых в [Эстонию]{"entity":"destination"}
       - сколько стоит тур в [Молдавию]{"entity":"destination"}
-      - во сколько обойдется туры в [Украину]{"entity":"destination"}
-      - за сколько можно купить туры с питанием в [Беларусь]{"entity":"destination"}
-      - в [Армению]{"entity":"destination"} цена
-      - во сколько обойдется туры в [Азербайджан]{"entity":"destination"}
-      - цена тура в [Казахстан]{"entity":"destination"}?
-      - за сколько можно купить туры с питанием в [Узбекистан]{"entity":"destination"}
-      - во сколько обойдется туры в [Таджикистан]{"entity":"destination"}
-      - цена в [Кыргызстан]{"entity":"destination"}
-      - в [Туркменистан]{"entity":"destination"} цена
-      - за сколько можно купить туры с питанием в [Афганистан]{"entity":"destination"}
-      - цена тура в [Иран]{"entity":"destination"}?
-      - можете сказать стоимость туров в [Ирак]{"entity":"destination"}
-      - в [Сирию]{"entity":"destination"} цена
-      - в [Израиль]{"entity":"destination"} цена
-      - можете сказать стоимость туров в [Иорданию]{"entity":"destination"}
-      - можете сказать стоимость туров в [Ливан]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Украину]{"entity":"destination"}
+      - можете сказать стоимость туров в [Беларусь]{"entity":"destination"}
+      - сколько стоит тур в [Армению]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Азербайджан]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Казахстан]{"entity":"destination"}
+      - в [Узбекистан]{"entity":"destination"} цена
+      - ценники на отдых в [Таджикистан]{"entity":"destination"}
+      - в [Кыргызстан]{"entity":"destination"} цена
+      - ценники на отдых в [Туркменистан]{"entity":"destination"}
+      - в [Афганистан]{"entity":"destination"} цена
+      - ценники на отдых в [Иран]{"entity":"destination"}
+      - за сколько можно купить туры с питанием в [Ирак]{"entity":"destination"}
+      - цена тура в [Сирию]{"entity":"destination"}?
+      - цена тура в [Израиль]{"entity":"destination"}?
+      - цена тура в [Иорданию]{"entity":"destination"}?
+      - за сколько можно купить туры с питанием в [Ливан]{"entity":"destination"}
       - в [Катар]{"entity":"destination"} цена
-      - цена тура в [Объединенные]{"entity":"destination"}?
-      - ценники на отдых в [Саудовскую]{"entity":"destination"}
-      - в [Йемен]{"entity":"destination"} цена
-      - цена в [Оман]{"entity":"destination"}
-      - за сколько можно купить туры с питанием в [Кувейт]{"entity":"destination"}
-      - за сколько можно купить туры с питанием в [Бахрейн]{"entity":"destination"}
-      - можете сказать стоимость туров в [Европу]{"entity":"destination"}
-      - цена тура в [Африку]{"entity":"destination"}?
-      - можете сказать стоимость туров в [Северную]{"entity":"destination"}
-      - сколько стоит тур в [Южную]{"entity":"destination"}
-      - в [Австралию]{"entity":"destination"} цена
-      - цена В [Азию]{"entity":"destination"}
+      - цена в [Объединенные]{"entity":"destination"}
+      - можете сказать стоимость туров в [Саудовскую]{"entity":"destination"}
+      - во сколько обойдется туры в [Йемен]{"entity":"destination"}
+      - во сколько обойдется туры в [Оман]{"entity":"destination"}
+      - цена в [Кувейт]{"entity":"destination"}
+      - можете сказать стоимость туров в [Бахрейн]{"entity":"destination"}
+      - цена в [Европу]{"entity":"destination"}
+      - сколько стоит тур в [Африку]{"entity":"destination"}
+      - в [Северную]{"entity":"destination"} цена
+      - в [Южную]{"entity":"destination"} цена
+      - можете сказать стоимость туров в [Австралию]{"entity":"destination"}
+      - можете сказать стоимость туров В [Азию]{"entity":"destination"}

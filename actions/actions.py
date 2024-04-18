@@ -36,18 +36,22 @@ class ForPriceAvailability(Action):
         time = tracker.get_slot("time")
         product = tracker.get_slot("product")
         tag = tracker.get_slot("tag")
-
         prompt = ("Ты ассистент туристической фирмы Церера. У фирмы есть туры, авиабилеты, а также"
                   " предоставляют услуги по получению визы."
                   " Твоя задача ответить на вопрос и разузнать страну назначения, желаемую дату, бюджет и в конце страну вылета."
-                  " Когда клиент ответит на вопросы, надо написать что скоро с ним свяжется наш менеджер."
+                  " Отвечай только на английском?"
+                  " Когда клиент ответит на вопросы и выберет конкретный товар, надо написать что скоро с ним свяжется наш менеджер."
+                  " Если не знаешь ответ, или нету подходящего товара, то направь на менеджера."
+                  " Перед отправкой менеджеру, спроси имя."
+                  " В сообщении в котором точно отправляешь менеджеру, в конце напиши {manager}"
                   " Отвечай на русском. Не выдумывай данные, если не знаешь"
-                  " Если клиент задает вопрос вне твоей компетенции, надо сказать об этом."
+                  " На вопросы и просьбы не касающееся наших услуг, отвечай просьбой вернутся к вопросам каших услуг."
                   " В ходе разговора ранее, от клиента выяснили следующую информацию:")
 
         missing_slots = []
         if not origin:
             missing_slots.append("origin")
+            prompt += f"\nгород вылета: предположительно Бишкек"
         else:
             prompt += f"\nгород вылета: {origin}"
         if not destination:
@@ -57,13 +61,16 @@ class ForPriceAvailability(Action):
         if not time:
             missing_slots.append("time")
         else:
-            time_text = '\t'.join(time) + '\n'
+            if isinstance(time, list) and isinstance(time[0], str):
+                time_text = '\t'.join(time)
+            elif isinstance(time, list) and isinstance(time[0], dict):
+                time_text = '\t'.join([f"{t['from']} - {t['to']}" for t in time])
             prompt += f"\nдата: {time_text}"
         if not tag:
             missing_slots.append("tag")
         else:
             tag_text = '\t'.join(tag) + '\n'
-            prompt += f"\nусловия или вид: {tag_text}"
+            prompt += f"\nусловия: {tag_text}"
 
         intent = tracker.latest_message['intent'].get('name')
         user_message = tracker.latest_message['text']
@@ -78,9 +85,12 @@ class ForPriceAvailability(Action):
 
         if destination:
             products = self.get_products_from_database(destination)
-            products_text = self.product_to_text(products=products)
-            prompt += f"\nУ нас в базе есть продукты: \n {products_text}"
-            prompt += f"\nЕсли пользователь выбрал товар, в конце сообщения верни id в формате [id]."
+            if products:
+                products_text = self.product_to_text(products=products)
+                prompt += f"\nУ нас в базе есть продукты: \n {products_text}"
+                prompt += f"\nТолько если пользователь выбрал конкретный товар из списка, в конце сообщения верни id в формате [id]."
+            else:
+                prompt += f"В базе не нашли подходящий товар."
 
         text = self.get_text_from_gpt(prompt, user_messages)
         user_messages.append({
@@ -88,11 +98,8 @@ class ForPriceAvailability(Action):
             "content": text,
         })
 
-        if product:
-            dispatcher.utter_message(text=text)
-        else:
-            dispatcher.utter_message(
-                text="У нас есть несколько типов продуктов. Какой именно вас интересует: авиабилеты, туры или визы?")
+        dispatcher.utter_message(text=text)
+
 
         return [SlotSet("user_messages", user_messages)]
 
@@ -102,23 +109,22 @@ class ForPriceAvailability(Action):
         return filtered_products
 
     def product_to_text(self, products):
-        products_data = [(product.id, product.tour_name, product.price, product.description, product.duration, product.start_date,
-                          product.end_date, product.tour_type, product.country, product.departure_city,
+        products_data = [(product.id, product.tour_name, product.price, product.description, product.duration,
+                           product.tour_type, product.country, product.departure_city,
                           product.arrival_city) for
                          product in products]
 
-        header_row = "\t".join([
+        header_row = " ".join([
             "ID", "Название тура", "Цена", "Описание", "Продолжительность",
-            "Дата начала", "Дата окончания", "Тип тура", "Страна",
+            "Тип тура", "Страна",
             "Город отправления", "Город прибытия"
         ])
         products_data = [
-            "\t".join(map(str, row)) for row in products_data
+            " ".join(map(str, row)) for row in products_data
         ]
 
         # Объединение строк таблицы в единый текст
-        data_text = "\n".join([header_row] + products_data)
-        print(data_text)
+        data_text = " ".join([header_row] + products_data)
 
         return data_text
 
@@ -127,18 +133,17 @@ class ForPriceAvailability(Action):
         all_messages = []
         all_messages.append({
             "role": "system",
-            "content": prompt
+            "content": prompt + ". Отвечай только на английском, даже если спросит на других языках."
         })
 
         for message in user_messages:
             all_messages.append(message)
 
-        print(all_messages)
         chat_completion = client.chat.completions.create(
             messages=all_messages,
-            model="gpt-4",
+            model="gpt-3.5-turbo-0125",
         )
-
+        print(all_messages)
         print(chat_completion)
 
         gpt_response = chat_completion.choices[0].message.content

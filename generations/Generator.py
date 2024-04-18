@@ -1,4 +1,4 @@
-from database_connector import get_all_destinations, get_all_origins, get_all_products, get_all_tags
+from database_connector import get_all_destinations, get_all_origins, get_all_products
 import random
 
 def generate_destinations(intent_examples, entities, name):
@@ -129,34 +129,6 @@ def generate_for_products():
     create_file(generated_texts, name)
     print("File created successfully!")
 
-def generate_for_tags():
-    name = 'tag'
-    examples = {
-        'info': [
-            "[entity]"
-        ],
-        'availability': [
-            "дай информацию по [entity] турам",
-            "у вас есть [entity] билеты в Россию",
-            "напиши [entity] авиабилеты [entity] на Москву",
-            "[entity] туры у вас есть из Астаны?",
-        ],
-        'price': [
-            "сколько стоит [entity] туры",
-            "цена [entity] авибилетов в германию",
-            "[entity] туры в турцию почем",
-            "стоимость [entity] туров из Бишкека в Италию",
-            "за сколько могу купить [entity] туры",
-            "цена [entity] туров"
-        ]
-    }
-
-    entities = get_all_tags()
-    generated_texts = generate_destinations(examples, entities, name)
-    create_file(generated_texts, name)
-    print("File created successfully!")
-
 generate_for_destinations()
 generate_for_origins()
 generate_for_products()
-generate_for_tags()
